@@ -1,7 +1,7 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import SearchPage from './pages/SearchPage'
-import DetailPage from './pages/DetailPage'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SearchPage from "./pages/SearchPage";
+import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route path="/anime/:id" element={<DetailPage />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
